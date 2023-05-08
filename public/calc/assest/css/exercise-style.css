@@ -1,0 +1,106 @@
+@font-face {
+    font-family: iranyekan;
+    src: url(../fonts/iranyekanwebregular.e31c09af.woff2);
+}
+html, body {
+    direction: rtl;
+    height: 100%;
+    font-family: iranyekan, sans-serif;
+}
+.bg {
+    background-size: cover !important;
+}
+.bg-1 {
+    background: url(../img/tailoring.jpg) center no-repeat;
+}
+.bg-2 {
+    background: url(../img/pexels-cottonbro-3738088.jpg) center no-repeat;
+}
+.bg-3 {
+    background: url(../img/sewing-101-scaled.jpeg) center no-repeat;
+}
+.theme {
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    direction: ltr;
+    border-radius: 4px;
+    overflow: hidden;
+}
+.theme select {
+    border: none;
+    padding: 5px;
+    outline: 0;
+    font-weight: bold;
+}
+.theme button {
+    border-radius: 0;
+    font-weight: bold;
+}
+.theme-list-1 select, .theme-list-3 select {
+    background: rgba(0, 0, 0, 0.5);
+}
+.theme-list-1 button, .theme-list-3 button {
+    background: #f8f9fa;
+    border: #f8f9fa;
+    color: #000;
+}
+.theme-list-2 select {
+    background: rgba(209, 61, 61, 0.5);
+}
+.tailoring {
+    width: 40%;
+    height: 472px;
+    border-radius: 16px;
+    /* border: 1px solid rgb(209, 61, 61); */
+}
+.tailoring-theme-1, .tailoring-theme-3 {
+    background: rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 5px 20px #fff;
+}
+.tailoring-theme-1:hover, .tailoring-theme-3:hover {
+    box-shadow: 0px 5px 20px #fff, 0 15px 30px rgb(212, 202, 202);
+}
+.tailoring-theme-2 {
+    background: rgba(209, 61, 61, 0.5);
+    box-shadow: 0px 5px 20px #dc3545;
+}
+.tailoring-theme-2:hover {
+    box-shadow: 0px 5px 20px #dc3545, 0 15px 30px #dc354680;
+}
+.tailoring:last-child {
+    display: none;
+}
+.receive-info, .result {
+    border-radius: 8px;
+    height: 376px;
+    margin: 0;
+}
+.receive-info input[type=text] {
+    border: none;
+    outline: none;
+    border-radius: 4px;
+}
+.receive-info input::placeholder {
+    color: #dc3545;
+    font-weight: bold;
+}
+.receive-info input::-webkit-inner-spin-button, .receive-info input::-webkit-outer-spin-button {
+    display: none;
+}
+.receive-info div:last-child button {
+    width: 47.5%;
+    color: #dc3545 !important;
+    font-weight: bolder !important;
+}
+.change {
+    left: 0;
+    bottom: 53px;
+}
+.change svg {
+    transform: rotate(90deg);
+}
+p {
+    line-height: 1.8;
+    text-align: justify;
+}

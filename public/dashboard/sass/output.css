@@ -1,0 +1,8 @@
+.post-category {
+  font-size: 12px;
+}
+.post-category li:after {
+  content: "|";
+}
+
+/*# sourceMappingURL=output.css.map */
